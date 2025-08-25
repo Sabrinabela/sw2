@@ -112,7 +112,7 @@ h1 {
 #carrinho-lateral {
     position: fixed;
     top: 0;
-    right: 0; /* quando fizer o script, alterar esse valor por -350px para ficar oculto*/
+    right: -350px; /* quando fizer o script, alterar esse valor por -350px para ficar oculto*/
     width: 350px;
     height: 100%;
     background-color: white;
