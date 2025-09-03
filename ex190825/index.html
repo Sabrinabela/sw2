@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Ícones -->
     <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
    
         <h1>Catálogo de produtos</h1>
+        <header>
+        <nav >
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#download">Loja</a></li>
+              <li><a href="#contato">Contato</a>
+              <ul>
+                <li><a href="#sac">SAC</a></li>
+                <li><a href="#fac">FAC</a></li>
+              </ul>
+            </li>
+            </ul>
+      
+            <form action="/pesquisa.html" method="GET">
+              <input type="search" name="q" placeholder="Pesquise aqui...">
+              <button type="submit" class="search-btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </nav>
+        </header>
 
     <div class="produtos-container">
         <!--Produto 1 -->
